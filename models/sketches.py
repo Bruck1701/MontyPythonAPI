@@ -39,10 +39,10 @@ class SketchModel(db.Model):
 		list_sketches=[]
 		for el in result.all():
 			if el.segment not in seg_hash:
-				seg_hash[el.segment] = el.detail
+				seg_hash[el.segment] = [el.detail]
 				list_sketches.append(el.segment)
 			else:
-				seg_hash[el.segment]+='\n'+el.detail
+				seg_hash[el.segment].append(el.detail)
 
 			sketch = list_sketches[random.randint(0,len(list_sketches)-1)]
 

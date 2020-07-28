@@ -1,5 +1,4 @@
-import json
-from flask_restful import Resource, reqparse
+from flask_restful import Resource
 from models.sketches import SketchModel
 import random
 

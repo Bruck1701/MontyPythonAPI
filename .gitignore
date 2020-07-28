@@ -1,1 +1,4 @@
-flask-env
+flask-env/*
+ __pycache__/*
+ models/__pycache__/*
+

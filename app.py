@@ -1,6 +1,7 @@
 from flask import Flask
 from flask_restful import Api
-from my_data import Data
+from original_data import Data
+from new_data import NewData
 from db import db
 
 
@@ -16,6 +17,7 @@ def create_tables():
 
 
 api.add_resource(Data,"/get/original")
+api.add_resource(NewData,"/get/new_material")
 
 
 if __name__ == "__main__":
