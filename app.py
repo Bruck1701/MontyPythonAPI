@@ -5,7 +5,7 @@ from new_data import NewData
 from db import db
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/data.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db/data2.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 api = Api(app)
 
