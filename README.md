@@ -1,7 +1,7 @@
 # MontyPythonAPI
 #### A Flask Restful API with Gunicorn in Docker. 
  ...And now for a completely different API. <br> 
-This is an API that returns dialogues from random episodes of Monty Pyhon and generate new material based on the content of the dialogues and political speeches.
+This is an API that returns dialogues from random episodes of Monty Python and generate new material based on the content of the dialogues and political speeches.
  
 To run the API locally, you need to set the $PORT environment (added to the Dockerfile to be able to run it on Heroku)
 ```
