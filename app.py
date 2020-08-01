@@ -1,8 +1,8 @@
 from flask import Flask
 from flask_restful import Api
-from original_data import Data
-from new_data import NewData
-from default_resource import Default
+from resources.original_data import Data
+from resources.new_data import NewData
+from resources.default_resource import Default
 from db import db
 
 app = Flask(__name__)
