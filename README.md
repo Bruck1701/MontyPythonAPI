@@ -56,7 +56,7 @@ Example:
 }
 ```
 
-A copy of the API is running on: 
+An instance of the API is running on: 
 ```
 https://bk-montypython-api.herokuapp.com/
 ```
